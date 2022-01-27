@@ -2753,9 +2753,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001109, caniuse-lite@^1.0.30001173, caniuse-lite@^1.0.30001178:
-  version "1.0.30001179"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001179.tgz#b0803883b4471a6c62066fb1752756f8afc699c8"
-  integrity sha512-blMmO0QQujuUWZKyVrD1msR4WNDAqb/UPO1Sw2WWsQ7deoM5bJiicKnWJ1Y0NS/aGINSnKPIWBMw5luX+NDUCA==
+  version "1.0.30001302"
+  resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001302.tgz"
+  integrity sha512-YYTMO+tfwvgUN+1ZnRViE53Ma1S/oETg+J2lISsqi/ZTNThj3ZYBOKP2rHwJc37oCsPqAzJ3w2puZHn0xlLPPw==
 
 ccount@^1.0.0:
   version "1.1.0"
@@ -5345,6 +5345,15 @@ gatsby-recipes@^0.8.0:
     ws "^7.3.0"
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
+
+gatsby-source-notion-api@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-notion-api/-/gatsby-source-notion-api-0.11.0.tgz#457a61b87df3a695d10584041c13a2c7a2c4ff36"
+  integrity sha512-u+Bb+/4A1zKNCVxc6htxK17FhkpDEdO8MOiVl0hPz2nHVDxh64TTDu6uRC1z5lDI6OnR5eEXcNiOA+fUdhj3aA==
+  dependencies:
+    node-fetch "^2.6.1"
+    or-pipets "^1.0.1"
+    yaml "^1.10.2"
 
 gatsby-telemetry@^1.9.0:
   version "1.9.0"
@@ -8189,6 +8198,11 @@ optionator@^0.9.1:
     prelude-ls "^1.2.1"
     type-check "^0.4.0"
     word-wrap "^1.2.3"
+
+or-pipets@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/or-pipets/-/or-pipets-1.0.1.tgz#0699c99f95a535614a585cd7fb3a1a216a47b5c0"
+  integrity sha512-xgIIdB4w00pbhtNPYLF/caifwbc4KrE7jy4WqiDRzRrC2g3YVR4ypRwbKRA/bXzftQEA2SK8c+wKI2R7kqKiLQ==
 
 original@>=0.0.5, original@^1.0.0:
   version "1.0.2"
@@ -11885,6 +11899,11 @@ yaml@^1.10.0, yaml@^1.7.2, yaml@^1.8.3:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.10.0.tgz#3b593add944876077d4d683fee01081bd9fff31e"
   integrity sha512-yr2icI4glYaNG+KWONODapy2/jDdMSDnrONSjblABjD9B4Z5LgiircSt8m8sRZFNi08kG9Sm0uSHtEmP3zaEGg==
+
+yaml@^1.10.2:
+  version "1.10.2"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-1.10.2.tgz#2301c5ffbf12b467de8da2333a459e29e7920e4b"
+  integrity sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==
 
 yargs-parser@^13.1.2:
   version "13.1.2"
